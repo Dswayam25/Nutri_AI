@@ -3,7 +3,7 @@ import google.generativeai as genai
 from langchain_core.prompts import PromptTemplate
 from langchain_google_genai import GoogleGenerativeAI
 
-# 🔐 Load API key securely
+# Load API key securely
 api_key = st.secrets["GEMINI_API_KEY"]
 
 genai.configure(api_key=api_key)
