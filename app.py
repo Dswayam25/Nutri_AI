@@ -12,7 +12,7 @@ genai.configure(api_key=api_key)
 llm = GoogleGenerativeAI(
     model="models/gemini-2.5-flash",
     google_api_key=api_key,
-    temperature=1.0
+    temperature=1.5
 )
 
 # Prompt template
